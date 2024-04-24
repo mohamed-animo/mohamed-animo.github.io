@@ -1,0 +1,105 @@
+/* styles.css */
+
+body {
+    background-color: rgb(164, 222, 225);
+    font-family: "Arial";
+}
+
+h1 {
+    color:rgb(146, 31, 29);
+    text-align: center;
+}
+
+
+.brede-afbeelding {
+    width: 100%; /* Hiermee wordt de afbeelding 100% van de beschikbare breedte */
+    max-width: 800px; /* Optioneel: beperk de maximale breedte van de afbeelding */
+    height: auto; /* Behoudt de aspect ratio van de afbeelding */
+    display: block; /* Zorgt ervoor dat de afbeelding niet inline is */
+    margin: 0 auto; /* Centreer de afbeelding op de pagina */
+}
+
+/* CSS voor het grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Twee kolommen, waarbij de eerste kolom twee keer zo breed is als de tweede */
+    gap: 10px; /* Ruimte tussen de grid-items */
+}
+.links {
+    background-color: rgb(164, 222, 14); /* Achtergrondkleur van linkerhelft */
+    padding: 20px; /* Ruimte binnen het element */
+    border-radius: 10px;
+}
+.rechts {
+    background-color: rgb(255, 255, 255); /* Achtergrondkleur van rechterhelft */
+    padding: 20px; /* Ruimte binnen het element */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.kleine-afbeelding:hover {
+    border: 8px dashed rgb(23, 178, 217);
+}
+
+
+.kleine-afbeelding {
+    width: 300px; /* Aanpassen naar gewenste breedte */
+    height: auto; /* Behoudt de aspect ratio van de afbeelding */
+}
+
+.grid-container-drie-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Drie kolommen van gelijke breedte */
+    grid-gap: 10px; /* Ruimte tussen de grid-items */
+}
+.grid-item {
+    padding: 20px; /* Ruimte binnen de grid-items */
+    text-align: center; /* Tekst uitlijning binnen de grid-items */
+}
+
+.dag-twee {
+    background-color: #ddbf39; /* Achtergrondkleur van grid-items */
+    color: black; /* dit is de tekstkleur */
+    padding: 20px; /* Ruimte binnen de kolommen */
+    border-radius: 10px; /* Ronde hoeken van 10 pixels */
+    margin: 10px; /* Buitenmarges van de kolommen */
+}
+
+.dag-een {
+    background-color: #ddbf39; /* Achtergrondkleur van grid-items */
+    color: rgb(0, 0, 0); /* dit is de tekstkleur */
+    padding: 20px; /* Ruimte binnen de kolommen */
+    border-radius: 10px; /* Ronde hoeken van 10 pixels */
+    margin: 10px; /* Buitenmarges van de kolommen */
+}
+
+.foto-mohamed {
+    background-color: #ddbf39;
+    color: rgb(0, 0, 0); /* dit is de tekstkleur */
+    padding: 20px; /* Ruimte binnen de kolommen */
+    border-radius: 10px; /* Ronde hoeken van 10 pixels */
+    margin: 10px; /* Buitenmarges van de kolommen */
+}
+
+.mo-program {
+    width: 500px; /* Aanpassen naar gewenste breedte */
+    border: 2px solid black; /* Optioneel: toevoegen van een rand */
+    border-radius: 10px; /* Optioneel: toevoegen van een afgeronde hoeken */
+}
+
+.mo-program:hover {
+    border: 8px dashed rgb(23, 178, 217);
+}
+
+.reflectie-en-leerpunten { 
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Twee kolommen van gelijke breedte */
+    gap: 10px; /* Ruimte tussen de kolommen */
+}
+
+.kolom {
+    background-color: #ddbf39;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
